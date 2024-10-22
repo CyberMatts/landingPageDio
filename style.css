@@ -53,8 +53,6 @@ h2 {
   font-size: 20px;
 }
 .header-centralizado {
-  display: flex;
-  justify-content: space-around;
   position: absolute;
   top: 32%;
   width: 100%;
@@ -95,7 +93,83 @@ h2 {
 .pBlue {
   color: rgb(0, 195, 255);
 }
-#woman {
+.woman {
+  background-color: black;
+  height: 650px;
+  background-size: cover;
+  background-image: url(./img/woman-code.png);
+  background-attachment: fixed;
+  border-bottom: 1px solid rgb(0, 195, 255);
 }
-.woman-fundo {
+.p-woman {
+  color: #ffff;
+  font-weight: 900;
+  font-size: 2.5rem;
+  text-transform: lowercase;
+  max-width: 280px;
+  text-shadow: 3px 2px #33a8db;
+  padding: 200px;
+}
+#desafios {
+  color: #ffff;
+  background-color: black;
+  width: 100%;
+  height: 900px;
+  text-align: center;
+  border-bottom: 1px solid rgb(0, 195, 255);
+}
+
+.desafio-centralized {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.Evolua {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.img-challenges {
+  width: 750px;
+}
+.challenges {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.last {
+  font-size: 19px;
+  max-width: 1000px;
+}
+.footer-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  background: linear-gradient(
+    0deg,
+    rgb(0, 23, 34) 0%,
+    rgb(0, 12, 19) 50%,
+    rgb(0, 0, 0) 100%
+  );
+  gap: 8px;
+  margin-top: -2.1px;
+}
+.footer-central {
+  margin-top: 70px;
+  text-align: center;
+}
+.footer-img {
+  width: 450px;
+}
+
+.text {
+  color: #ffff;
+  font-size: 25px;
+}
+.link {
+  color: #33a8db;
 }
